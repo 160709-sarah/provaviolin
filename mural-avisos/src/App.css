@@ -1,0 +1,69 @@
+/* Paleta sugerida: #0A192F (texto/botões), #DEDBDC (fundos), #554D4D (detalhes) */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #DEDBDC;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  background-color: #0A192F;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.conteudo {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.formulario {
+  flex: 1;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #554D4D;
+}
+
+.lista {
+  flex: 2;
+}
+
+.cartao {
+  background: white;
+  border: 1px solid #554D4D;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cartao h3 {
+  margin: 0 0 0.5rem;
+  color: #0A192F;
+}
+
+.cartao small {
+  color: #554D4D;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+button {
+  background-color: #0A192F;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #554D4D;
+}
